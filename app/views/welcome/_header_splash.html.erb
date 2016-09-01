@@ -1,0 +1,20 @@
+<header class="splash">
+  <%= render partial: '/user_util_links' %>
+
+  <div class="large-logo">
+    <%= link_to image_tag("scholarworks.png", { alt: "ScholarWorks Logo" }), root_path, { title: "ScholarWorks Home" } %>
+  </div>
+
+  <div id="splash-search-bar">
+    <%= render 'catalog/search_form' %>
+  </div>
+
+  <section id="browse-by">
+    Or browse by
+    Collection,
+    Contributor,
+    Format,
+    or
+    Subject
+  </section>
+</header>
