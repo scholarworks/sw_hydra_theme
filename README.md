@@ -1,0 +1,1 @@
+sw_hydra_theme
