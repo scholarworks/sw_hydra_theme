@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'sw_hydra_theme/version'
 
 Gem::Specification.new do |spec|
   spec.authors		 = ["Aaron Collier"]
@@ -11,5 +12,5 @@ Gem::Specification.new do |spec|
   
   spec.name          = "sw_hydra_theme"
   spec.require_paths = ["lib"]
-  spec.version       = '0.1.0'
+  spec.version       = Sw_hydra_theme::VERSION
 end
