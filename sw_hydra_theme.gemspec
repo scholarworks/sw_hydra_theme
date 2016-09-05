@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage		 = 'http://library.calstate.edu'
   
   spec.name          = "sw_hydra_theme"
+  spec.files		 = `git ls-files`.split("\n")
   spec.require_paths = ["lib"]
   spec.version       = Sw_hydra_theme::VERSION
 end
